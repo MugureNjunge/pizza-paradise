@@ -1,3 +1,24 @@
+function Pizza() {
+  let size = document.querySelector('input[name="size"]:checked').value
+  let crust = document.querySelector('input[name="crust"]:checked').value
+  let toppings = [];
+    let checkboxes = document.getElementByName('toppings[]');
+    for(let i=0; i<checkboxes.length;i++){
+      if(checkboxes[i].checked){
+        toppings.push(checkboxes[i].value);
+      }
+    }
+
+
+
+var pizzaTotal = ("size", "crust", "toppings"){
+  var size = ("small", "medium", "large");
+  var crust = ("crispy", "stuffed", "gluten-free", "classic-thin", "classic-thick");
+  var topings = ("Sausage and Mushrooms " , "Pepperoni and Bacon" ,
+  "Ham and Pineapple" ,"Sausage and Pepper", "Ham and Mushroom", "Pepperoni and Pepper",
+  "Cheese and Basil leaves","Mushroom and pepperoni","Macon and Mushroom");
+}
+
 
 
 

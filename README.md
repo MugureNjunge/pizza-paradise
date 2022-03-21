@@ -17,7 +17,7 @@ Link to website : https://mugurenjunge.github.io/pizza-paradise/
 
 **Bugs**
 
-DNo known bugs.
+No known bugs.
 
 **Technologies Used****
 

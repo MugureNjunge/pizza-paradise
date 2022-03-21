@@ -27,51 +27,51 @@ function Pizza() {
 
 }
 
-let pizzaTotal = ("size" + "crust" + "toppings"){
-  let pizzaSizes = ("small", "medium", "large");
-  let sizePrice = (300, 500, 700);
-  let crust = ("crispy", "gluten-free", "classic-thin", "classic-thick");
-  let crustPrice = (150, 150, 150, 150);
-  let toppings = ("Sausage and Mushrooms ", "Pepperoni and Bacon",
-  "Ham and Pineapple", "Sausage and Pepper");
-let toppingsPrice = (150, 150, 150, 150 );
-}
+// let total = ("size" + "crust" + "toppings"){
+//   let pizzaSizes = ("small", "medium", "large");
+//   let sizePrice = (300, 500, 700);
+//   let crust = ("crispy", "gluten-free", "classic-thin", "classic-thick");
+//   let crustPrice = (150, 150, 150, 150);
+//   let toppings = ("Sausage and Mushrooms ", "Pepperoni and Bacon",
+//   "Ham and Pineapple", "Sausage and Pepper");
+// let toppingsPrice = (150, 150, 150, 150 );
+// }
 
 
 let pizzaTotal = (size + crust + (toppings).checked + (delivery).checked).value;
 return true;
-alert("Your total is 'pizzaTotal'");
+alert("Your total price is 'pizzaTotal'");
 
 // mushroom
 if (size.value == "large" && crust.value == "crispy" && toppings.value == "Mushrooms") {
-  let total = 700 + 150 + 150;
-  alert ("Your total price is pizzaTotal")
+  let pizzaTotal = 700 + 150 + 150;
+  alert ("Your total price is 'pizzaTotal'")
 
 if (size.value == "medium" && crust.value == "crispy" && toppings.value == "Mushrooms") {
-  let total = 700 + 150 + 150;
-  alert ("Your total price is pizzaTotal")
+  let pizzaTotal = 700 + 150 + 150;
+  alert ("Your total price is 'pizzaTotal'")
 
 if (size.value == "small" && crust.value == "crispy" && toppings.value == "Mushrooms") {
-  let total = 700 + 150 + 150;
-  alert ("Your total price is pizzaTotal")
+  let pizzaTotal = 700 + 150 + 150;
+  alert ("Your total price is 'pizzaTotal'")
 
 if (size.value == "large" && crust.value == "gluten-free" && toppings.value == "Mushrooms") {
-  let total = 700 + 150 + 150;
+  let pizzaTotal = 700 + 150 + 150;
 
 if (size.value == "medium" && crust.value == "gluten-free" && toppings.value == "Mushrooms") {
-  let total = 700 + 150 + 150;
+  let pizzaTotal = 700 + 150 + 150;
   alert ("Your total price is pizzaTotal")
 
 if (size.value == "small" && crust.value == "gluten-free" && toppings.value == "Mushrooms") {
-  let total = 700 + 150 + 150;
+  let pizzaTotal = 700 + 150 + 150;
   alert ("Your total price is pizzaTotal")
 
 if (size.value == "large" && crust.value == "thick-crust" && toppings.value == "Mushrooms") {
-  let total = 700 + 150 + 150;
+  let pizzaTotal = 700 + 150 + 150;
   alert ("Your total price is pizzaTotal")
 
 if (size.value == "medium" && crust.value == "thick-crust" && toppings.value == "Mushrooms") {
-  let total = 700 + 150 + 150;
+  let pizzaTotal = 700 + 150 + 150;
   alert ("Your total price is pizzaTotal")
 
 if (size.value == "small" && crust.value == "thick-crust" && toppings.value == "Mushrooms") {
@@ -98,7 +98,7 @@ if (size.value == "large" && crust.value == "gluten-free" && toppings.value == "
   
 if (size.value == "medium" && crust.value == "gluten-free" && toppings.value == "pepperoni") {
   let total = 700 + 150 + 150;
-  alert ("Your total price is pizzaTotal")
+  alert ("Your total price is total")
   
 if (size.value == "small" && crust.value == "gluten-free" && toppings.value == "pepperoni") {
   let total = 700 + 150 + 150;
@@ -188,7 +188,7 @@ if (size.value == "medium" && crust.value == "thick-crust" && toppings.value == 
       
 if (size.value == "small" && crust.value == "thick-crust" && toppings.value == "pineapple") {
   let total = 700 + 150 + 150;
-  alert ("Your total price is pizzaTotal")
+  alert ("Your total price is total")
   
 
   

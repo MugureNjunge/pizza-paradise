@@ -12,17 +12,46 @@
 
   <!-- header section  -->
   <div class="card-title">
-    <h1>WELCOME TO</h1>
+    <h1 id="head1">WELCOME TO </h1>
     <div class="logo">
       <img src="images/logo.jpeg"><br><br>
       <p>MAKE YOUR ORDER TODAY!</p>
+
     </div>
   </div>
 
   <!-- body section -->
   <div class="card-body">
-    <form onsubmit="pizza()">
+    <form>
 
+      <div>
+        <input list="toppings" type="text" id="topping" placeholder="toppings...">
+        <datalist id="toppings">
+          <option value="mushrooms">
+          <option value="pineapple">
+          <option value="ham">
+          <option value="Pepperoni">
+
+        </datalist>
+      </div>
+
+      <div>
+        <input list="sizes" type="text" id="size" placeholder="size...">
+        <datalist id="sizes">
+          <option value="large">
+          <option value="medium">
+          <option value="small">
+        </datalist>
+      </div>
+
+      <div>
+        <input list="crusts" type="text" id="crust" placeholder="crust...">
+        <datalist id="crusts">
+          <option value="crispy">
+          <option value="gluten-free">
+          <option value="thick-crust">
+        </datalist>
+      </div>
       <!-- size -->
       <div class="row" id="row1">
         <div class="col-sm-4">
@@ -73,6 +102,7 @@
         </div>
       </div>
 
+
       <!-- number of pizzas -->
       <div class="row" id="row2">
         <div class="col-sm-3">
@@ -82,39 +112,40 @@
 
         <!-- delivery -->
         <div class="col-sm-3">
-          <p><strong>Delivery</strong></p><input id="delivery" name="delivery" type="radio"
-            value="Sausage and Mushrooms">
-          <label>Yes</label>
+          <p><strong>Delivery</strong></p><input id="delivery" name="delivery" type="radio">
           <div class="price">Kshs.200</div>
         </div>
+        <input type="button" onclick="myFunction()" value="order">
+    </form>
 
-        <!-- making an order  -->
-        <div class="col-sm-6">
-          <div class="row col-lg-12 col-md-12">
-            <form onsubmit="userData()">
-              <input id="name" type="text" name="name" placeholder="Name..." class="col-lg-4 transparent">
-              <input id="phone number" type="text" name="phone number" placeholder="phone number"
-                class="col-lg-4 transparent">
-              <br><br>
-              <input id="address" type="text" name="message" placeholder="Enter your address here.."
-                class="input col-lg-8 transparent">
-              <br><br>
-              <input id="submit" type="submit" value="Order Now">
-            </form>
-          </div>
+    <!-- making an order  -->
+    <div class="col-sm-6">
+      <div class="row col-lg-12 col-md-12">
+        <!-- <form>
+          <input id="name" type="text" name="name" placeholder="Name..." class="col-lg-4 transparent">
+          <input id="phone number" type="text" name="phone number" placeholder="phone number"
+            class="col-lg-4 transparent">
+          <br><br>
+          <input id="address" type="text" name="message" placeholder="Enter your address here.."
+            class="input col-lg-8 transparent">
+          <br><br>
 
-        </div>
+        </form> -->
       </div>
+
+    </div>
+  </div>
+
   </div>
   <div class="card-footer">
     <br>
     <p>PIZZA PARADISE, WORLD OF UNPARALLED FLAVORS!</p>
     <p>2022</p>
   </div>
-
+  <script src="scripts.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+
 
 
 </body>

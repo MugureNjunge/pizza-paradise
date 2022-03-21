@@ -2,7 +2,7 @@
 
 **Written by Maureen Njung'e**
 
-This is a web application that allows a client to choose the pizza size, toppings and crust type, with added delivery options. The client is also able to order more than one pizza and add their address details to facilitate delivery. It has a formuale in Javascript that calculates the client's total cost.
+This is a web application that allows a client to choose the pizza size, toppings and crust type, with added delivery options. The client is also able to order more than one pizza and add their address details to facilitate delivery. It uses functions in Javascript that calculates the client's total cost and give the client an alert with a summary of the order and the total cost.
 
 **Set up**
 

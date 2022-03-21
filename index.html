@@ -23,36 +23,41 @@
   <!-- body section -->
   <div class="card-body">
     <form>
+      <div class="row" id="row1">
+        <div class="col-sm-4">
+              
+                <!-- toppings -->
+          <input list="toppings" type="text" id="topping" placeholder="toppings...">
+          <datalist id="toppings">
+            <option value="mushrooms">
+            <option value="pineapple">
+            <option value="ham">
+            <option value="pepperoni">
 
-      <div>
-        <input list="toppings" type="text" id="topping" placeholder="toppings...">
-        <datalist id="toppings">
-          <option value="mushrooms">
-          <option value="pineapple">
-          <option value="ham">
-          <option value="Pepperoni">
+          </datalist>
+        </div>
 
-        </datalist>
+               <!-- size -->
+        <div class="col-sm-4">
+          <input list="sizes" type="text" id="size" placeholder="size...">
+          <datalist id="sizes">
+            <option value="large">
+            <option value="medium">
+            <option value="small">
+          </datalist>
+        </div>
+
+              <!-- crust -->
+        <div class="col-sm-4">
+          <input list="crusts" type="text" id="crust" placeholder="crust...">
+          <datalist id="crusts">
+            <option value="crispy">
+            <option value="gluten-free">
+            <option value="thick-crust">
+          </datalist>
+        </div>
       </div>
-
-      <div>
-        <input list="sizes" type="text" id="size" placeholder="size...">
-        <datalist id="sizes">
-          <option value="large">
-          <option value="medium">
-          <option value="small">
-        </datalist>
-      </div>
-
-      <div>
-        <input list="crusts" type="text" id="crust" placeholder="crust...">
-        <datalist id="crusts">
-          <option value="crispy">
-          <option value="gluten-free">
-          <option value="thick-crust">
-        </datalist>
-      </div>
-      <!-- size -->
+      <!-- size
       <div class="row" id="row1">
         <div class="col-sm-4">
           <p><strong>Size</strong></p>
@@ -70,7 +75,7 @@
 
 
         <!-- crust type -->
-        <div class="col-sm-4">
+        <!-- <div class="col-sm-4">
           <p><strong>Crust</strong></p>
           <input id="crispy" name="crust" type="radio" value="crispy">
           <label>Crispy</label><br>
@@ -81,10 +86,10 @@
           <input id="thick-crust" name="crust" type="radio" value="thick-crust">
           <label>Thick-crust</label>
           <div class="price">Kshs.150</div><br><br>
-        </div>
+        </div> -->
 
         <!-- Toppings -->
-        <div class="col-sm-4">
+        <!-- <div class="col-sm-4">
           <p><strong>Toppings</strong></p>
           <input id="Mushrooms" name="topping" type="checkbox" value="Mushrooms">
           <label>Mushrooms</label>
@@ -100,7 +105,7 @@
           <div class="price">Kshs.150</div>
           <br>
         </div>
-      </div>
+      <!-- </div> --> 
 
 
       <!-- number of pizzas -->

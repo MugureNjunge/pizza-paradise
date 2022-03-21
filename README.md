@@ -11,7 +11,7 @@ Clone this repo to your desktop, create gh-pages and publish it. Go to the clone
 
 **Description**
 
-This is a web application that allows a client to choose the pizza size, toppings and crust type, with added delivery options. It was made using HTML ,Javascript and CSS languages.
+This is a web application that allows a client to choose the pizza size, toppings and crust type, with added delivery options. It was made using **HTML ,Javascript and CSS languages.**
 
 Link to website : https://mugurenjunge.github.io/pizza-paradise/
 
@@ -21,7 +21,7 @@ DNo known bugs.
 
 **Technologies Used****
 
-HTML ,Javascript and CSS were used to create this project. I added a formulae to my Javascript that calculates the day of the week you were born.
+HTML ,Javascript and CSS were used to create this project. I added functions in Javascript that calculates the client's total cost and give the client an alert with a summary of the order and the total cost.
 
 **Support and contact detail**s
 

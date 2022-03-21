@@ -7,12 +7,13 @@ function myFunction() {
   let pizzaCrust =document.getElementById("crust");
   let yummyPrice =[150, 150, 150, 150];
   let crustPrice = [200,200,200];
+  let delivery =[200]
 
   // mushrooms
 
   if (pizzaSize.value=="large" && yummy.value=="mushrooms" && pizzaCrust.value == "crispy"){
-    alert("You placed an order for a " + pizzaSize.value + " pizza with  " + yummy.value + " toppings and a " + pizzaCrust.value + " crust" );
-  alert("Your total cost is" + sizePrice[2] + yummyPrice[0] + crustPrice[0]);
+    alert("You placed an order for a " + pizzaSize.value + " pizza with  " + yummy.value + " toppings and a " + pizzaCrust.value + " crust. Press ok. to see your total cost!" );
+  alert(sizePrice[2] + yummyPrice[0] + crustPrice[0]);
 
   }
 

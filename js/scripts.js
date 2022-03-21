@@ -59,6 +59,8 @@
 // if (size.value == "large" && crust.value == "crispy" && toppings.value == "Sausage and Mushrooms") {
 //         let total = 700 + 150 + 150;
 
-formSubmit(){
-  letpizzaSize = 
+function myFunction(){
+  letpizzaSize = getElementById("small")
+
+  alert("pizzaSize")
 }

@@ -9,78 +9,90 @@
 </header>
 
 <body>
-  <div class="card">
-    <!-- header section  -->
-    <div class="card-title">
-      <h1>WELCOME TO</h1>
-      <div class="logo">
-        <img src="images/logo.jpeg">
-      </div>
+
+  <!-- header section  -->
+  <div class="card-title">
+    <h1>WELCOME TO</h1>
+    <div class="logo">
+      <img src="images/logo.jpeg"><br><br>
+      <p>MAKE YOUR ORDER TODAY!</p>
     </div>
+  </div>
 
-    <!-- body section -->
-    <div class="card-body">
-      <h2>SERVICES</h2>
-      <p>For all your yummy pizzas, from chicken bbq, to chicken tika, to pepperoni, not forgeting Ashiana.We've got it
-        all. Your cheesy pizza is a delivery away.<br>Choose the size, crust type and toppings of your choice </p>
-      <form onsubmit="pizza()">
+  <!-- body section -->
+  <div class="card-body">
+    <form onsubmit="pizza()">
 
-        <!-- size -->
-        <p><strong>Size</strong></p>
-        <input id="large" name="size" type="radio" value="large">
-        <label>Large</label>
-        <div class="price">Kshs.700</div>
-        <input id="medium" name="size" type="radio" value="medium">
-        <label>Medium</label>
-        <div class="price">Kshs.500</div>
-        <input id="small" name="size" type="radio" value="small">
-        <label>Small</label>
-        <div class="price">Kshs.300</div>
-        <br><br>
+      <!-- size -->
+      <div class="row" id="row1">
+        <div class="col-sm-4">
+          <p><strong>Size</strong></p>
+          <input id="large" name="size" type="radio" value="large">
+          <label>Large</label>
+          <div class="price">Kshs.700</div>
+          <input id="medium" name="size" type="radio" value="medium">
+          <label>Medium</label>
+          <div class="price">Kshs.500</div>
+          <input id="small" name="size" type="radio" value="small">
+          <label>Small</label>
+          <div class="price">Kshs.300</div>
+          <br><br>
+        </div>
+
 
         <!-- crust type -->
-        <p><strong>Crust</strong></p>
-        <input id="crispy" name="crust" type="radio" value="crispy">
-        <label>Crispy</label><br>
-        <div class="price">Kshs.150</div>
-
-        <input id="gluten-free" name="crust" type="radio" value="gluten-free">
-        <label>Gluten-free</label>
-        <div class="price">Kshs.150</div>
-        <input id="thin-crust" name="crust" type="radio" value="thin-crust">
-        <label>Thin-crust</label>
-        <div class="price">Kshs.150</div>
-        <input id="thick-crust" name="crust" type="radio" value="thick-crust">
-        <label>Thick-crust</label>
-        <div class="price">Kshs.150</div><br><br>
+        <div class="col-sm-4">
+          <p><strong>Crust</strong></p>
+          <input id="crispy" name="crust" type="radio" value="crispy">
+          <label>Crispy</label><br>
+          <div class="price">Kshs.150</div>
+          <input id="gluten-free" name="crust" type="radio" value="gluten-free">
+          <label>Gluten-free</label>
+          <div class="price">Kshs.150</div>
+          <input id="thin-crust" name="crust" type="radio" value="thin-crust">
+          <label>Thin-crust</label>
+          <div class="price">Kshs.150</div>
+          <input id="thick-crust" name="crust" type="radio" value="thick-crust">
+          <label>Thick-crust</label>
+          <div class="price">Kshs.150</div><br><br>
+        </div>
 
         <!-- Toppings -->
-        <p><strong>Toppings - Choose as many as you would like!</strong></p>
-        <input id="Sausage and Mushrooms" name="topping" type="checkbox" value="Sausage and Mushrooms">
-        <label>Sausage and Mushrooms</label>
-        <div class="price">Kshs.150</div>
-        <input id="Pepperoni and Bacon" name="topping" type="checkbox" value="Pepperoni and Bacon">
-        <label>Pepperoni and Bacon</label>
-        <div class="price">Kshs.150</div>
-        <input id="Ham and Pineapple" name="topping" type="checkbox" value="Ham and Pineapple">
-        <label>Ham and Pineapple</label>
-        <div class="price">Kshs.150</div>
-        <input id="Sausage and Pepper" name="topping" type="checkbox" value="Sausage and Pepper">
-        <label>Sausage and Pepper</label>
-        <div class="price">Kshs.150</div>
-        <br>
+        <div class="col-sm-4">
+          <p><strong>Toppings</strong></p>
+          <input id="Sausage and Mushrooms" name="topping" type="checkbox" value="Sausage and Mushrooms">
+          <label>Sausage and Mushrooms</label>
+          <div class="price">Kshs.150</div>
+          <input id="Pepperoni and Bacon" name="topping" type="checkbox" value="Pepperoni and Bacon">
+          <label>Pepperoni and Bacon</label>
+          <div class="price">Kshs.150</div>
+          <input id="Ham and Pineapple" name="topping" type="checkbox" value="Ham and Pineapple">
+          <label>Ham and Pineapple</label>
+          <div class="price">Kshs.150</div>
+          <input id="Sausage and Pepper" name="topping" type="checkbox" value="Sausage and Pepper">
+          <label>Sausage and Pepper</label>
+          <div class="price">Kshs.150</div>
+          <br>
+        </div>
+      </div>
 
-        <!-- number of pizzas -->
-        <input id="number" type="number" name="number of pizzas" placeholder="Numbers of pizzas"
-                class="input col-lg-8 transparent"><br><br>
+      <!-- number of pizzas -->
+      <div class="row" id="row2">
+        <div class="col-sm-3">
+          <input id="number" type="number" name="number of pizzas" placeholder="Numbers of pizzas"
+            class="input col-lg-8 transparent"><br><br>
+        </div>
 
-                <!-- delivery -->
-        <p><strong>Delivery</strong></p><input id="delivery" name="delivery" type="radio" value="Sausage and Mushrooms">
-        <label>Yes</label>
-        <div class="price">Kshs.200</div>
-       
-               <!-- making an order  -->
-        <div class="order">
+        <!-- delivery -->
+        <div class="col-sm-3">
+          <p><strong>Delivery</strong></p><input id="delivery" name="delivery" type="radio"
+            value="Sausage and Mushrooms">
+          <label>Yes</label>
+          <div class="price">Kshs.200</div>
+        </div>
+
+        <!-- making an order  -->
+        <div class="col-sm-6">
           <div class="row col-lg-12 col-md-12">
             <form onsubmit="userData()">
               <input id="name" type="text" name="name" placeholder="Name..." class="col-lg-4 transparent">
@@ -95,36 +107,18 @@
           </div>
 
         </div>
-    </div>
-    <div class="card-footer">
-      <img src="">
-      <img src="images/facebook.png">
-      <br>
-      <p>PIZZA PARADISE</p>
-      <br>
-      <p>2022</p>
-    </div>
+      </div>
+  </div>
+  <div class="card-footer">
+    <br>
+    <p>PIZZA PARADISE, WORLD OF UNPARALLED FLAVORS!</p>
+    <p>2022</p>
+  </div>
 
-  </div>
-  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 
-  <!-- <div class="steps">
-
-        <div class="box">
-          <img src="" alt="">
-          <h1>Choose your size</h1>
-        </div>
-        <div class="box">
-          <img src="" alt="">
-          <h1>Make your order</h1>
-        </div>
-        <div class="box">
-          <img src="" alt="">
-          <h1>Fast and reliable delivery</h1>
-        </div> -->
 
 </body>
 

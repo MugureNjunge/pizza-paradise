@@ -23,82 +23,87 @@
   <!-- body section -->
   <div class="card-body">
 
-      <div class="row" id="row1">
-        <div class="col-sm-4">
+    <div class="row" id="row1">
+      <div class="col-sm-4">
 
-          <!-- toppings -->
-          <input list="toppings" type="text" id="topping" placeholder="toppings...">
-          <datalist id="toppings">
-            <option value="mushrooms">
-            <option value="pineapple">
-            <option value="ham">
-            <option value="pepperoni">
+        <!-- toppings -->
+        <input list="toppings" type="text" id="topping" placeholder="toppings...">
+        <datalist id="toppings">
+          <option value="mushrooms">
+          <option value="pineapple">
+          <option value="ham">
+          <option value="pepperoni">
 
-          </datalist>
-        </div>
-
-        <!-- size -->
-        <div class="col-sm-4">
-          <input list="sizes" type="text" id="size" placeholder="size...">
-          <datalist id="sizes">
-            <option value="large">
-            <option value="medium">
-            <option value="small">
-          </datalist>
-        </div>
-
-        <!-- crust -->
-        <div class="col-sm-4">
-          <input list="crusts" type="text" id="crust" placeholder="crust...">
-          <datalist id="crusts">
-            <option value="crispy">
-            <option value="gluten-free">
-            <option value="thick-crust">
-          </datalist>
-        </div>
+        </datalist>
       </div>
 
-
-      <!-- number of pizzas -->
-      <div class="row" id="row2">
-        <div class="col-sm-3">
-          <input id="number" type="number" name="number of pizzas" placeholder="Numbers of pizzas"
-            class="input col-lg-8 transparent"><br><br>
-        </div>
-
-        <!-- delivery -->
-        <div class="col-sm-3">
-          <p><strong>Delivery</strong></p><input id="delivery" name="delivery" type="radio">
-          <div class="price">Kshs.200</div>
-        </div>
-        
-    
-
-    <!-- making an order  -->
-    <div class="col-sm-6">
-      <div class="row col-lg-12 col-md-12">
-        <form>
-          <input id="name" type="text" name="name" placeholder="Name..." class="col-lg-4 transparent">
-          <input id="phone number" type="text" name="phone number" placeholder="phone number"
-            class="col-lg-4 transparent">
-          <br><br>
-          <input id="address" type="text" name="message" placeholder="Enter your address here.."
-            class="input col-lg-6 transparent">
-          <br><br>
-          <input type="button" onclick="myFunction()" value="order">
-
-        </form>
+      <!-- size -->
+      <div class="col-sm-4">
+        <input list="sizes" type="text" id="size" placeholder="size...">
+        <datalist id="sizes">
+          <option value="large">
+          <option value="medium">
+          <option value="small">
+        </datalist>
       </div>
 
+      <!-- crust -->
+      <div class="col-sm-4">
+        <input list="crusts" type="text" id="crust" placeholder="crust...">
+        <datalist id="crusts">
+          <option value="crispy">
+          <option value="gluten-free">
+          <option value="thick-crust">
+        </datalist>
+      </div>
     </div>
-  </div>
+
+
+    <!-- number of pizzas -->
+    <div class="row" id="row2">
+      <div class="col-sm-3">
+        <input id="number" type="number" name="number of pizzas" placeholder="Numbers of pizzas"
+          class="input col-lg-8 transparent"><br><br>
+      </div>
+
+      <!-- delivery -->
+      <div class="col-sm-3">
+        <p><strong>Delivery</strong></p><input id="delivery" name="delivery" type="radio">
+        <div class="Delivery">Kshs.200</div>
+      </div>
+
+
+
+      <!-- making an order  -->
+      <div class="col-sm-6">
+        <div class="row col-lg-12 col-md-12">
+          <form>
+            <input id="name" type="text" name="name" placeholder="Name..." class="col-lg-4 transparent">
+            <input id="phone number" type="text" name="phone number" placeholder="phone number"
+              class="col-lg-4 transparent">
+            <br><br>
+            <input id="address" type="text" name="message" placeholder="Enter your address here.."
+              class="input col-lg-6 transparent">
+            <br><br>
+            <input type="button" onclick="myFunction()" value="order">
+
+          </form>
+        </div>
+
+      </div>
+    </div>
 
   </div>
   <div class="card-footer">
     <br>
     <p>PIZZA PARADISE, WORLD OF UNPARALLED FLAVORS!</p>
+    <div class="images">
+      <img src="images/pizza2.jpg">
+      <img src="images/pizza4.jpg">
+    </div>
     <p>2022</p>
   </div>
+
   <script src="scripts.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

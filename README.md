@@ -13,7 +13,7 @@ Clone this repo to your desktop, create gh-pages and publish it. Go to the clone
 
 This is a web application that allows a client to choose the pizza size, toppings and crust type, with added delivery options. It was made using HTML ,Javascript and CSS languages.
 
-Link to website : 
+Link to website : https://mugurenjunge.github.io/pizza-paradise/
 
 **Bugs**
 

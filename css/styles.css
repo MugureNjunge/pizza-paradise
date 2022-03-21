@@ -46,12 +46,33 @@ text-align: center;
   margin-right: 10px;
 }
 
-#image4{
-  margin: 400px;
-  float: left;
+/* .menu{
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  padding-top: 20px;
+} */
+
+#menu1{
+  padding-top: 20px;
+  width: 90%;
+  margin: auto;
 }
 
-#image2{
-  margin: 400px;
-  float: right;
+#menu2{
+  padding-top: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+#menu3{
+  padding-top: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+#menu4{
+  padding-top: 20px;
+  width: 90%;
+  margin: auto;
 }
